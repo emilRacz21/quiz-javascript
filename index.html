@@ -4,26 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="czas"></div>
-      <div class="nrStrony"></div>
-      <div class="pytanie"></div>
-      <div class="display">
-        <input type="radio" name="question" id="" value="1" /><a></a></br>
-        <input type="radio" name="question" id="" value="2" /><a></a></br>
-        <input type="radio" name="question" id="" value="3" /><a></a></br>
-        <input type="radio" name="question" id="" value="4" /><a></a></br>
+    <div class="menu-container">
+      <h1>Quiz</h1>
+      <div class="question-length">
+        <p>number of questions:</p>
+        <input
+          type="number"
+          class="quiz-length-input"
+          value="1"
+          min="1"
+          max="50"
+        />
       </div>
-      <a name="text1" class="iloscp">Wybierz ilosć pytań: </a><br />
-      <input type="number" class="quizLength" value="1" min="1" max="" /></br>
-      <button class="startQuiz"></button>
-      <button class="button-next"></button>
-      <div class="jd"></div>
-      <button class="reset"></button>
+      <form class="category">
+        <label for="category">Select category:</label>
+        <select id="category-select" name="category"></select>
+      </form>
+      <form class="difficulty">
+        <input type="radio" id="any" name="difficulty" value="" />
+        <label for="any">Any difficulty</label><br />
+        <input type="radio" id="easy" name="difficulty" value="easy" />
+        <label for="easy">Easy</label><br />
+        <input type="radio" id="medium" name="difficulty" value="medium" />
+        <label for="medium">Medium</label><br />
+        <input type="radio" id="hard" name="difficulty" value="hard" />
+        <label for="hard">Hard</label><br />
+      </form>
+      <button class="start-game">Begin Quiz!</button>
     </div>
-    <script src="script.js"></script>
+    <div class="game-container hidden">
+      <div class="show-time">
+        <h2 class="category-question"></h2>
+        <div>
+          <p>Time left:</p>
+          <p class="set-time">59s.</p>
+        </div>
+      </div>
+      <div class="loading-bar-container">
+        <div class="loading-bar-before"></div>
+        <div class="loading-bar"></div>
+      </div>
+      <form class="question"></form>
+      <div class="bottom">
+        <p class="question-number"></p>
+        <p class="difficulty-text"></p>
+        <button class="button-next">Next Question</button>
+      </div>
+    </div>
+    <div class="result-container hidden">
+      <p>Your Score</p>
+      <p>3/5</p>
+      <p>Rank:</p>
+      <p>C</p>
+    </div>
+    <script src="src/script/game.js"></script>
   </body>
 </html>
