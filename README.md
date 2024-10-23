@@ -38,6 +38,10 @@ This application is built using the following technologies:
 3. Start the game by clicking the "Start Game" button.
 4. Select a category, difficulty, and number of questions, then click the "Start" button.
 
+## Design
+
+![quiz](https://github.com/user-attachments/assets/5ee271fe-e6eb-4e9a-9206-2485a145fba3)
+
 ## Future Improvements
 
 - Add multiplayer options.
