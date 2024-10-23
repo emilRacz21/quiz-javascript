@@ -24,7 +24,10 @@ This application is built using the following technologies:
 
 - **HTML** - for the structure of the page.
 - **CSS** - for styling.
+<<<<<<< HEAD
 - **SCSS** - for styling.
+=======
+>>>>>>> bf8a1a416abcfb498d07c1d1d3213e234775990c
 - **JavaScript** - for the application logic.
 - **API** - Open Trivia Database.
 
@@ -34,12 +37,16 @@ This application is built using the following technologies:
    ```bash
    git clone https://github.com/emilRacz21/quiz-javascript.git
    cd quiz-game
+<<<<<<< HEAD
    ```
+=======
+>>>>>>> bf8a1a416abcfb498d07c1d1d3213e234775990c
 2. Open the index.html file in your web browser.
 3. Start the game by clicking the "Start Game" button.
 4. Select a category, difficulty, and number of questions, then click the "Start" button.
 
 ## Future Improvements
+<<<<<<< HEAD
 
 - Add multiplayer options.
 - Implement localization for users to select questions in their language.
@@ -49,3 +56,13 @@ This application is built using the following technologies:
 ## License
 
 - This project is licensed under the MIT License.
+=======
+* Add multiplayer options.
+* Implement localization for users to select questions in their language.
+* Expand with more categories and difficulty levels.
+* Enhance the user interface and responsiveness.
+## License
+- This project is licensed under the MIT License.
+
+
+>>>>>>> bf8a1a416abcfb498d07c1d1d3213e234775990c
