@@ -257,6 +257,9 @@ html {
   }
 }
 @media (max-width: 1000px) {
+  html{
+    background-color: rgb(226, 226, 226);
+  }
   body {
     margin: 0;
     background-color: rgb(226, 226, 226);
