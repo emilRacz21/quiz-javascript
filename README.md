@@ -1,7 +1,7 @@
 # Quiz Game
 
 Quiz Game is an interactive online quiz application that allows users to test their knowledge on various topics. The app fetches questions from the Open Trivia Database API, offering options to choose categories and difficulty levels.
-* [link to the game page](quiz-game-er.netlify.app)
+- [Quiz Game](https://quiz-game-er.netlify.app/)
 
 ## Table of Contents
 
