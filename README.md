@@ -37,12 +37,12 @@ This application is built using the following technologies:
 3. Start the game by clicking the "Start Game" button.
 4. Select a category, difficulty, and number of questions, then click the "Start" button.
 
-##Future Improvements
+## Future Improvements
 *Add multiplayer options.
 *Implement localization for users to select questions in their language.
 *Expand with more categories and difficulty levels.
 *Enhance the user interface and responsiveness.
-##License
+## License
 - This project is licensed under the MIT License.
 
 
