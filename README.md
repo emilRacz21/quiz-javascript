@@ -38,10 +38,10 @@ This application is built using the following technologies:
 4. Select a category, difficulty, and number of questions, then click the "Start" button.
 
 ## Future Improvements
-*Add multiplayer options.
-*Implement localization for users to select questions in their language.
-*Expand with more categories and difficulty levels.
-*Enhance the user interface and responsiveness.
+* Add multiplayer options.
+* Implement localization for users to select questions in their language.
+* Expand with more categories and difficulty levels.
+* Enhance the user interface and responsiveness.
 ## License
 - This project is licensed under the MIT License.
 
