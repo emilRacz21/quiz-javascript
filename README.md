@@ -31,7 +31,7 @@ This application is built using the following technologies:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/quiz-game.git
+   git clone https://github.com/emilRacz21/quiz-javascript.git
    cd quiz-game
 2. Open the index.html file in your web browser.
 3. Start the game by clicking the "Start Game" button.
