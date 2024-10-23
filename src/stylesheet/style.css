@@ -257,10 +257,8 @@ html {
   }
 }
 @media (max-width: 1000px) {
-  html{
-    background-color: rgb(226, 226, 226);
-  }
-  body {
+  body,
+  html {
     margin: 0;
     background-color: rgb(226, 226, 226);
   }
@@ -271,25 +269,27 @@ html {
     box-shadow: none;
   }
   .menu-container h1 {
-    margin: 0;
-    font-size: 6rem;
+    font-size: 4rem;
   }
   .menu-container .question-length {
-    margin: 2rem;
+    margin: 1rem;
   }
   .menu-container .category {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .menu-container button {
     margin: 2rem;
   }
   .menu-container .difficulty {
     flex-direction: column;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
   }
   .menu-container .start-game {
-    margin-top: 3rem;
-    padding: 1.6rem 3rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
     border-radius: 30px;
     font-size: 1.4rem;
   }
