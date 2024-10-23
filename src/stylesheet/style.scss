@@ -285,12 +285,13 @@ html {
     box-shadow: none;
     h1 {
       font-size: 4rem;
+      margin: 0.5rem;
     }
     .question-length {
-      margin: 1rem;
+      margin: 0.5rem;
     }
     .category {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
 
     button {
@@ -303,8 +304,6 @@ html {
     }
     .start-game {
       margin: 1rem;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
       padding: 1rem 2rem;
       border-radius: 30px;
       font-size: 1.4rem;
