@@ -33,7 +33,7 @@ This application is built using the following technologies:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/emilRacz21/quiz-javascript.git
-   cd quiz-game
+   cd quiz-javascript
 2. Open the index.html file in your web browser.
 3. Start the game by clicking the "Start Game" button.
 4. Select a category, difficulty, and number of questions, then click the "Start" button.
