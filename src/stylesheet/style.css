@@ -298,19 +298,35 @@ html {
     border-radius: 0px;
     box-shadow: none;
   }
+  .game-container .show-time {
+    margin: 1rem;
+  }
+  .game-container .show-time .category-question {
+    font-size: 1rem;
+  }
+  .game-container .show-time div {
+    margin: 0;
+  }
+  .game-container .loading-bar-container .loading-bar-before {
+    height: 0.2rem;
+  }
+  .game-container .loading-bar-container .loading-bar {
+    width: 100%;
+    height: 0.2rem;
+  }
   .game-container .question {
-    margin: auto 0;
+    margin: 0;
   }
   .game-container .question h2 {
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-align: left;
   }
   .game-container .question label {
     display: block;
     width: 100%;
-    padding: 1.4rem 0;
+    padding: 0.5rem 0;
     border-radius: 30px;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .game-container .bottom {
     flex-direction: column;
@@ -318,17 +334,18 @@ html {
     margin-top: auto;
   }
   .game-container .bottom .difficulty-text {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: 100;
     margin: 0.3;
   }
   .game-container .bottom .question-number {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: 0;
   }
   .game-container .bottom button {
-    padding: 2rem 4rem;
+    padding: 1.5rem 2.3rem;
     border-radius: 30px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .result-container {
     width: 100%;

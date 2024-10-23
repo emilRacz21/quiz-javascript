@@ -316,19 +316,37 @@ html {
     border-radius: 0px;
     box-shadow: none;
 
+    .show-time {
+      margin: 1rem;
+      .category-question {
+        font-size: 1rem;
+      }
+      div {
+        margin: 0;
+      }
+    }
+    .loading-bar-container {
+      .loading-bar-before {
+        height: 0.2rem;
+      }
+      .loading-bar {
+        width: 100%;
+        height: 0.2rem;
+      }
+    }
     .question {
-      margin: auto 0;
+      margin: 0;
       h2 {
-        font-size: 1.6rem;
+        font-size: 1rem;
         text-align: left;
       }
 
       label {
         display: block;
         width: 100%;
-        padding: 1.4rem 0;
+        padding: 0.5rem 0;
         border-radius: 30px;
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
     }
     .bottom {
@@ -336,18 +354,19 @@ html {
       align-items: center;
       margin-top: auto;
       .difficulty-text {
-        font-size: 1.3rem;
+        font-size: 1rem;
+        font-weight: 100;
         margin: 0.3;
       }
       .question-number {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         margin: 0;
       }
       button {
         @extend element-button;
-        padding: 2rem 4rem;
+        padding: 1.5rem 2.3rem;
         border-radius: 30px;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
       }
     }
   }
